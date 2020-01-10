@@ -315,3 +315,83 @@
 // console.log(r(),u(),m(),l(),e(),o());
 // console.log(r(10),u(15),m(3),l(8),e(23),o(15));
 // console.log(r(10),u([]),m({}),l("Hello"),e(null),o(true));
+
+
+// // էսի կնայենք չեմ բացատրել
+// function f(){
+//     console.log(f,"function value from function")
+// };
+// console.log(f,"function value from main() console");
+// f();
+// let l = function(){
+//     console.log(l,"function value from function")
+// };
+// console.log(l,"function value from main() console");
+// l();
+// let k = function u(){
+//     console.log(k,"function value from function");
+//     console.log(u,"function value from function");
+// };
+// // console.log(u); էսի որ բացես throw-ա անելու
+// console.log(k,"function value from main() console");
+// k();
+
+
+// function f(){
+//     return 5
+// };
+// let u = f();
+// let y = (function(){
+//     return 5
+// })();
+// console.log(u);
+// console.log(y);
+
+
+// (function (){
+//     console.log("Hello")
+// })();
+// (function (a){
+//     console.log(a)
+// })();
+// (function (a){
+//     console.log(a)
+// })(5);
+
+
+// let u = function(){
+
+// }();
+// console.log(u);
+// let r = function(){
+//     return 5
+// }();
+// console.log(r);
+
+// let a = 10;
+// (function(){
+//     console.log(a)
+// })();
+// (function(a){
+//     console.log(a)
+// })();
+// (function(a){
+//     console.log(a)
+// })(a);
+
+
+// let a = 10;
+// function f(a) {
+//     console.log(a);
+//     (function () {
+//         console.log(a)
+//     })();
+//     f1();
+// };
+// function f1() {
+//     console.log(a);
+//     (function(){
+//         console.log(a)
+//     })();
+// };
+// f();
